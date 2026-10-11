@@ -429,9 +429,15 @@ namespace Command_table {
 				
 				while (!valid_input) {
 					std::cout << "Enter With The Dice Number [" << (i + 1) << "]: ";
-					std::cin >> dice_code[i];
+					
+					if (!(std::cin >> dice_code[i])) {
+						std::cin.clear();
+						std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+						std::cout << "Error: Invalid input! Please enter a valid number.\n";
+						continue;
+					}
 
-					if (dice_code[i] < 10000) {
+					if (dice_code[i] < 10000 || dice_code[i] > 99999) {
 						std::cout << "Error: The number must contain 5 digits!\n";
 						
 						std::string response;
@@ -446,29 +452,7 @@ namespace Command_table {
 							[](unsigned char c) {
 								return static_cast<char>(std::tolower(c));
 							}
-						);				
-
-						if (response.empty() || response == "y" || response == "yes") {
-						} else if (response == "n" || response == "no") {
-							std::cout << "\nOperation cancelled for this field.\n\n";
-							return 0;
-						}
-					} else if (dice_code[i] > 100000) {
-						std::cout << "Error: The number must contain 5 digits!\n";
-						
-						std::string response;
-						std::cout << "Do you want to insert it again (y/n)? ";
-						std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-						std::getline(std::cin, response);
-
-						std::transform(
-							response.begin(),
-							response.end(),
-							response.begin(),
-							[](unsigned char c) {
-								return static_cast<char>(std::tolower(c));
-							}
-						);
+						);              
 
 						if (response.empty() || response == "y" || response == "yes") {
 						} else if (response == "n" || response == "no") {
