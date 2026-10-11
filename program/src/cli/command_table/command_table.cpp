@@ -326,7 +326,7 @@ namespace Command_table {
         int DoInput(int argc, char* argv[]) {
 			bool input_mode = false;
 			bool export_file = false;
-			int max_iter = 6;
+			int max_iter = 5;
 			std::filesystem::path export_dir;
 			std::filesystem::path file_path;
 
@@ -425,10 +425,61 @@ namespace Command_table {
 
 			std::cout << "\n\n";
 			for (int i = 0; i < max_iter; i++) {
-				std::cout << "Enter With The Dice Number" << '[' << (i + 1) << "]: ";
-				std::cin >> dice_code[i];
-			}
-			std::cout << "\n\n";
+				bool valid_input = false;
+				
+				while (!valid_input) {
+					std::cout << "Enter With The Dice Number [" << (i + 1) << "]: ";
+					std::cin >> dice_code[i];
+
+					if (dice_code[i] < 10000) {
+						std::cout << "Error: The number must contain 5 digits!\n";
+						
+						std::string response;
+						std::cout << "Do you want to insert it again (y/n)? ";
+						std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+						std::getline(std::cin, response);
+
+						std::transform(
+							response.begin(),
+							response.end(),
+							response.begin(),
+							[](unsigned char c) {
+								return static_cast<char>(std::tolower(c));
+							}
+						);				
+
+						if (response.empty() || response == "y" || response == "yes") {
+						} else if (response == "n" || response == "no") {
+							std::cout << "\nOperation cancelled for this field.\n\n";
+							return 0;
+						}
+					} else if (dice_code[i] > 100000) {
+						std::cout << "Error: The number must contain 5 digits!\n";
+						
+						std::string response;
+						std::cout << "Do you want to insert it again (y/n)? ";
+						std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+						std::getline(std::cin, response);
+
+						std::transform(
+							response.begin(),
+							response.end(),
+							response.begin(),
+							[](unsigned char c) {
+								return static_cast<char>(std::tolower(c));
+							}
+						);
+
+						if (response.empty() || response == "y" || response == "yes") {
+						} else if (response == "n" || response == "no") {
+							std::cout << "\nOperation cancelled for this field.\n\n";
+							return 0;
+						}
+					} else {
+						valid_input = true;
+					}
+				}
+			} std::cout << "\n\n";
 
 			for (int i = 0; i < max_iter; i++) {
 				auto resultados = Logic::Compare(file_path.string(), dice_code[i]);
@@ -445,8 +496,7 @@ namespace Command_table {
 				        Command::Export(res, export_dir);
 				    }
 				}
-			}
-			std::cout << "\n\n";
+			} std::cout << "\n\n";
 
 			return 0;
 		} // DoInput().
