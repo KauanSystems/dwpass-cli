@@ -14,4 +14,4 @@
   <img src="https://img.shields.io/badge/CMake-Build-orange?logo=cmake" alt="CMake">
 </p><br><br><br><br>
 
-# dwpass-cli - A Diceware Passphrase Generator.
+## dwpass-cli - A Diceware Passphrase Generator.
