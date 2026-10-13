@@ -202,7 +202,7 @@ namespace Command_table {
 
 				if (export_file) {
 				    for (const std::string& res : resultados) {
-				        Command::Export(res, file_m);
+				        Command::Export(res, file_m.string());
 				    }
 				}
 			} std::cout << "\n\n";
@@ -314,7 +314,7 @@ namespace Command_table {
 
 				if (export_file) {
 				    for (const std::string& res : resultados) {
-				        Command::Export(res, export_dir);
+				        Command::Export(res, export_dir.string());
 				    }
 				}
 			}
@@ -477,7 +477,7 @@ namespace Command_table {
 
 				if (export_file) {
 				    for (const std::string& res : resultados) {
-				        Command::Export(res, export_dir);
+				        Command::Export(res, export_dir.string());
 				    }
 				}
 			} std::cout << "\n\n";
