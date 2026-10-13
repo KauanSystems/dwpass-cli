@@ -9,8 +9,10 @@
 </h1>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-Standard-blue?logo=c%2B%2B" alt="C++ Standard">
   <img src="https://img.shields.io/badge/C%2B%2B-20-blue?logo=c%2B%2B" alt="C++20">
   <img src="https://img.shields.io/badge/Linux-Supported-green?logo=linux" alt="Linux Supported">
+  <img src="[https://img.shields.io/badge/Windows-Supported-green?logo=windows](https://img.shields.io/badge/Windows-Supported-green?logo=windows)" alt="Windows Supported">
   <img src="https://img.shields.io/badge/CMake-Build-orange?logo=cmake" alt="CMake">
 </p><br><br><br><br>
 
