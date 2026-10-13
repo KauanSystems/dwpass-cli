@@ -1,5 +1,9 @@
 # program/src/cli/CMakeLists.txt
 
+if (MSVC)
+    add_compile_options(/utf-8 /EHsc)
+endif()
+
 add_executable(${PROJECT_NAME}
 	main.cpp
 	command_table/command_table.cpp
