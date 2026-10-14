@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="assets/logo/Logo.svg" width="300" alt="dwpass-cli Logo">
-</p> <br>
+</p>
 
 <h1 align="center">
   dwpass-cli - A Diceware Passphrase Generator.
@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Linux-Supported-green?logo=linux" alt="Linux Supported">
   <img src="https://img.shields.io/badge/Windows-Supported-green?logo=windows" alt="Windows Supported">
   <img src="https://img.shields.io/badge/CMake-Build-orange?logo=cmake" alt="CMake">
-</p> <br><br>
+</p> <br>
 
 A high-performance, security-focused command-line interface (CLI) tool for generating passphrases using the Diceware method. The project combines the convenience of terminal-based automation with the rigor of physical entropy and the operating system's cryptographic sources.
 
@@ -23,7 +23,7 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 ## 📂 Project Structure:
 
 ```text
-.
+dwpass-cli/
 ├── assets/                             # Dwpass-cli Assets File.
 ├── assets/logo                         # Dwpass-cli Logo.
 ├── program                             # dwpass-cli program File.
@@ -31,7 +31,6 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 ├── program/include/cli                 # Cli Include Directory.
 ├── program/src                         # program src Directory.
 ├── program/src/cli                     # Cli src Directory.
-│
 ├── CMakeLists.txt                      # Project Root CMakeLists.txt
 ├── LICENSE                             # Project Root CMakeLists.txt
 └── README.md                           # Technical documentation.
