@@ -39,15 +39,21 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 └── README.md                           # Technical documentation.
 ```
 
+<br><br><br><br>
+
 ## 📦 Requirements
 
 Before building dwpass, make sure the following dependencies are installed.
+
+<br><br>
 
 ### <img src="https://cdn.simpleicons.org/archlinux" width="24" alt="Arch Linux"> Arch Linux:
 
 ```bash
 sudo pacman -S --needed base-devel cmake gcc git
 ```
+
+<br><br>
 
 ### <img src="https://cdn.simpleicons.org/debian/d70a53" width="24" alt="Debian"> Debian:
 
@@ -57,7 +63,9 @@ sudo apt update
 sudo apt install -y build-essential cmake gcc g++ git
 ```
 
-### <img src="https://cdn.simpleicons.org/windows/0078D4" width="24" alt="Windows"> Windows
+<br><br>
+
+### <img src="https://img.shields.io/badge/PowerShell-%23012456.svg?style=for-the-badge&logo=powershell&logoColor=white" width="24" alt="Windows"> Windows
 
 Open **PowerShell as Administrator** and run:
 
@@ -68,12 +76,16 @@ winget install Kitware.CMake
 winget install Microsoft.VisualStudio.2022.BuildTools --override "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
 ```
 
+<br><br><br><br>
+
 Packages installed:
 
 - `base-devel` — Essential build tools (make, linker, etc.).
 - `gcc` — C/C++ compiler with C++20 support.
 - `cmake` — Build system generator.
 - `git` — Repository cloning.
+
+<br><br><br><br>
 
 # 🛠️ Build & Run
 
