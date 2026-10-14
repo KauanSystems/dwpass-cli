@@ -2,11 +2,11 @@
 
 <p align="center">
   <img src="assets/logo/Logo.svg" width="300" alt="dwpass-cli Logo">
-</p> <br><br><br>
+</p> <br><br>
 
 <h1 align="center">
   dwpass-cli - A Diceware Passphrase Generator.
-</h1> <br><br><br><br>
+</h1> <br><br>
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-Standard-blue?logo=c%2B%2B" alt="C++ Standard">
