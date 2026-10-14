@@ -25,8 +25,16 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 
 ```text
 .
-├── assets/		   		              			# Dwpass-cli Assets.
-└── README.md      		              		    # Technical documentation.
+├── assets/                             # Dwpass-cli Assets File.
+├── assets/logo                         # Dwpass-cli Logo.
+├── program                             # dwpass-cli program File.
+├── program/include                     # program Include Directory.
+├── program/include/cli                 # Cli Include Directory.
+├── program/src                         # program src Directory.
+├── program/src/cli                     # Cli src Directory.
+├── CMakeLists.txt                      # Project Root CMakeLists.txt
+├── LICENSE                             # Project Root CMakeLists.txt
+└── README.md                           # Technical documentation.
 ```
 
 <br><br>
