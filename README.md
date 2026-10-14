@@ -48,8 +48,6 @@ Before building dwpass, make sure the following dependencies are installed. <br>
 sudo pacman -S --needed base-devel cmake gcc git
 ```
 
-<br>
-
 ### <img src="https://cdn.simpleicons.org/debian/d70a53" width="24" alt="Debian"> Debian:
 
 ```bash
@@ -57,8 +55,6 @@ sudo apt update
 
 sudo apt install -y build-essential cmake gcc g++ git
 ```
-
-<br>
 
 ### <img src="https://img.shields.io/badge/PowerShell-%23012456.svg?style=for-the-badge&logo=powershell&logoColor=white" width="24" alt="Windows"> Windows
 
@@ -71,7 +67,7 @@ winget install Kitware.CMake
 winget install Microsoft.VisualStudio.2022.BuildTools --override "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
 ```
 
-<br>
+<br><br>
 
 Packages installed:
 
