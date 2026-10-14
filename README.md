@@ -76,13 +76,11 @@ Packages installed:
 - `cmake` — Build system generator.
 - `git` — Repository cloning.
 
-<br>
+<br><br>
 
 # 🛠️ Build & Run
 
 Requires a compiler with **C++** support **clang++/g++**.
-
-<br>
 
 ## <img src="https://img.shields.io/badge/Command%20Prompt-000000?style=for-the-badge&logo=windows&logoColor=white" width="30" alt="Command Prompt"> Command Prompt:
 
