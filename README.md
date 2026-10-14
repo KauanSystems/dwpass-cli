@@ -18,7 +18,7 @@
 
 ## 🎲 dwpass-cli - A Diceware Passphrase Generator.
 
-A high-performance, security-focused command-line interface (CLI) tool for generating passphrases using the Diceware method. The project combines the convenience of terminal-based automation with the rigor of physical entropy and the operating system's cryptographic sources.
+A high-performance, security-focused command-line interface (CLI) tool for generating passphrases using the Diceware method. The project combines the convenience of terminal-based automation with the rigor of physical entropy and the operating system's cryptographic sources. <br><br>
 
 
 ## 📂 Project Structure:
@@ -32,6 +32,7 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 ├── program/include/cli                 # Cli Include Directory.
 ├── program/src                         # program src Directory.
 ├── program/src/cli                     # Cli src Directory.
+│
 ├── CMakeLists.txt                      # Project Root CMakeLists.txt
 ├── LICENSE                             # Project Root CMakeLists.txt
 └── README.md                           # Technical documentation.
