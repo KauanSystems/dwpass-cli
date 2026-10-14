@@ -87,8 +87,6 @@ Packages installed:
 
 # 🛠️ Build & Run
 
-<br>
-
 Requires a compiler with **C++** support **clang++/g++**.
 
 <br>
