@@ -1,12 +1,12 @@
-<br><br><br>
+<br>
 
 <p align="center">
   <img src="assets/logo/Logo.svg" width="300" alt="dwpass-cli Logo">
-</p> <br><br>
+</p> <br>
 
 <h1 align="center">
   dwpass-cli - A Diceware Passphrase Generator.
-</h1> <br><br>
+</h1> <br>
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-Standard-blue?logo=c%2B%2B" alt="C++ Standard">
@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Linux-Supported-green?logo=linux" alt="Linux Supported">
   <img src="https://img.shields.io/badge/Windows-Supported-green?logo=windows" alt="Windows Supported">
   <img src="https://img.shields.io/badge/CMake-Build-orange?logo=cmake" alt="CMake">
-</p> <br><br><br>
+</p> <br><br>
 
 ## 🎲 dwpass-cli - A Diceware Passphrase Generator.
 
