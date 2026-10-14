@@ -14,13 +14,13 @@
   <img src="https://img.shields.io/badge/Linux-Supported-green?logo=linux" alt="Linux Supported">
   <img src="https://img.shields.io/badge/Windows-Supported-green?logo=windows" alt="Windows Supported">
   <img src="https://img.shields.io/badge/CMake-Build-orange?logo=cmake" alt="CMake">
-</p> <br><br><br><br>
+</p> <br><br><br>
 
 ## 🎲 dwpass-cli - A Diceware Passphrase Generator.
 
 A high-performance, security-focused command-line interface (CLI) tool for generating passphrases using the Diceware method. The project combines the convenience of terminal-based automation with the rigor of physical entropy and the operating system's cryptographic sources.
 
-<br><br><br>
+<br><br>
 
 ## 📂 Project Structure:
 
@@ -39,13 +39,11 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 └── README.md                           # Technical documentation.
 ```
 
-<br><br><br>
+<br><br>
 
 ## 📦 Requirements
 
-Before building dwpass, make sure the following dependencies are installed.
-
-<br>
+Before building dwpass, make sure the following dependencies are installed. <br>
 
 ### <img src="https://cdn.simpleicons.org/archlinux" width="24" alt="Arch Linux"> Arch Linux:
 
@@ -103,7 +101,7 @@ cmake -B build
 cmake --build build
 ```
 
-<br><br><br><br><br><br>
+<br><br><br><br><br>
 
 <p align="center">
   <img src="assets/logo/Logo.svg" width="200" alt="dwpass-cli Logo">
