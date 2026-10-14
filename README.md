@@ -18,7 +18,7 @@
 
 A high-performance, security-focused command-line interface (CLI) tool for generating passphrases using the Diceware method. The project combines the convenience of terminal-based automation with the rigor of physical entropy and the operating system's cryptographic sources.
 
-<br><br>
+<br>
 
 ## 📂 Project Structure:
 
@@ -36,7 +36,7 @@ dwpass-cli/
 └── README.md                           # Technical documentation.
 ```
 
-<br><br>
+<br>
 
 ## 📦 Requirements
 
@@ -71,7 +71,7 @@ winget install Kitware.CMake
 winget install Microsoft.VisualStudio.2022.BuildTools --override "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
 ```
 
-<br><br>
+<br>
 
 Packages installed:
 
@@ -80,7 +80,7 @@ Packages installed:
 - `cmake` — Build system generator.
 - `git` — Repository cloning.
 
-<br><br>
+<br>
 
 # 🛠️ Build & Run
 
