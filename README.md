@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
- dwpass-cli - A Diceware Passphrase Generator.
+  dwpass-cli - A Diceware Passphrase Generator.
 </h1>
 
 <p align="center">
@@ -19,3 +19,14 @@
 ## 🎲 dwpass-cli - A Diceware Passphrase Generator.
 
 A high-performance, security-focused command-line interface (CLI) tool for generating passphrases using the Diceware method. The project combines the convenience of terminal-based automation with the rigor of physical entropy and the operating system's cryptographic sources.
+
+
+## 📂 Project Structure:
+
+```text
+.
+├── assets/		   		              			# Dwpass-cli Assets.
+└── README.md      		              		# Technical documentation.
+```
+
+<br>
