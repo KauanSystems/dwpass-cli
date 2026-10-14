@@ -91,9 +91,13 @@ Packages installed:
 
 Requires a compiler with **C++** support **clang++/g++**.
 
-## <img src="https://cdn.simpleicons.org/gnubash" width="24" alt="Bash"> Linux (Bash):
+## <img src="https://img.shields.io/badge/Command%20Prompt-000000?style=for-the-badge&logo=windows&logoColor=white" width="30" alt="Command Prompt"> Command Prompt:
 
 ```bash
+https://github.com/KauanSystems/dwpass-cli.git
+
+cd dwpass-cli
+
 cmake -B build
 
 cmake --build build
