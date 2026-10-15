@@ -124,8 +124,8 @@ cmake --build build
 <h1 align="center">Dwpass-cli</h1>
 
 <p align="center">
-  Developed by KauanSysytems.
-</p><br>
+  A Modern Cli Diceware Passphrase Generator. <br> Built with modern C++ for performance, simplicity, and reliability. <br><br>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-Standard-green?logo=c%2B%2B" alt="C++ Standard">
@@ -136,7 +136,7 @@ cmake --build build
 </p><br>
 
 <p align="center">
-  A Modern Cli Diceware Passphrase Generator. <br><br> Built with modern C++ for performance, simplicity, and reliability.
-</p>
+  Developed by KauanSysytems.
+</p> <br>
 
 <br><br><br><br><br>
