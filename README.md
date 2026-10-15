@@ -9,11 +9,15 @@
 </h1> <br>
 
 <p align="center">
+  A Modern Cli Diceware Passphrase Generator. <br><br> Built with modern C++ for performance, simplicity, and reliability.
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-Standard-green?logo=c%2B%2B" alt="C++ Standard">
   <img src="https://img.shields.io/badge/License-GPLv3-green?logo=gnu" alt="License GPLv3">
   <img src="https://img.shields.io/badge/Linux-Supported-green?logo=linux" alt="Linux Supported">
   <img src="https://img.shields.io/badge/Windows-Supported-green?logo=windows" alt="Windows Supported">
-  <img src="https://img.shields.io/badge/CMake-Build-orange?logo=cmake" alt="CMake">
+  <img src="https://img.shields.io/badge/CMake-Build-green?logo=cmake" alt="CMake">
 </p> <br>
 
 A high-performance, security-focused command-line interface (CLI) tool for generating passphrases using the Diceware method. The project combines the convenience of terminal-based automation with the rigor of physical entropy and the operating system's cryptographic sources.
@@ -25,7 +29,7 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 
 <br>
 
-## 📂 Project Structure:
+## Project Structure:
 
 ```text
 dwpass-cli/                                                          
@@ -47,7 +51,7 @@ dwpass-cli/
 
 <br>
 
-## 📦 Requirements
+## Requirements:
 
 Before building dwpass, make sure the following dependencies are installed. <br>
 
@@ -87,7 +91,7 @@ Packages installed:
 
 <br><br>
 
-# 🛠️ Build & Run
+# Build & Run
 
 Requires a compiler with **C++** support **clang++/g++**.
 
@@ -116,11 +120,11 @@ cmake --build build
 </p><br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C%2B%2B-Standard-blue?logo=c%2B%2B" alt="C++ Standard">
-  <img src="https://img.shields.io/badge/License-GPLv3-blue?logo=gnu" alt="License GPLv3">
+  <img src="https://img.shields.io/badge/C%2B%2B-Standard-green?logo=c%2B%2B" alt="C++ Standard">
+  <img src="https://img.shields.io/badge/License-GPLv3-green?logo=gnu" alt="License GPLv3">
   <img src="https://img.shields.io/badge/Linux-Supported-green?logo=linux" alt="Linux Supported">
   <img src="https://img.shields.io/badge/Windows-Supported-green?logo=windows" alt="Windows Supported">
-  <img src="https://img.shields.io/badge/CMake-Build-orange?logo=cmake" alt="CMake">
+  <img src="https://img.shields.io/badge/CMake-Build-green?logo=cmake" alt="CMake">
 </p><br>
 
 <p align="center">
