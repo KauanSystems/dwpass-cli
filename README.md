@@ -121,7 +121,7 @@ cmake --build build
   <img src="assets/logo/Logo.svg" width="200" alt="dwpass-cli Logo">
 </p>
 
-<h1 align="center">Dwpass-cli</h1>
+<h1 align="center">Dwpass-cli</h1> <br>
 
 <p align="center">
   A Modern Cli Diceware Passphrase Generator. <br> Built with modern C++ for performance, simplicity, and reliability. <br><br>
@@ -133,10 +133,18 @@ cmake --build build
   <img src="https://img.shields.io/badge/Linux-Supported-green?logo=linux" alt="Linux Supported">
   <img src="https://img.shields.io/badge/Windows-Supported-green?logo=windows" alt="Windows Supported">
   <img src="https://img.shields.io/badge/CMake-Build-green?logo=cmake" alt="CMake">
-</p><br>
+</p> <br>
+
+<div align="center">
+
+[Project Structure](#project-structure) ·
+[Requirements](#requirements) ·
+[Build & Run](#build--run)
+
+</div> <br>
 
 <p align="center">
   Developed by KauanSysytems.
-</p> <br>
+</p> <br><br>
 
 <br><br><br><br><br>
