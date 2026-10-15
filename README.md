@@ -21,8 +21,8 @@
 </p> <br>
 
 <p align="center">
-  [Project Structure](#project-structure) <br>
-  [Requirements](#requirements) <br>
+  [Project Structure](#project-structure)
+  [Requirements](#requirements)
   [Build & Run](#build--run)
 </p> <br>
 
