@@ -21,9 +21,9 @@
 </p> <br>
 
 <center>
-  [Project Structure](#project-structure)
-  [Requirements](#requirements)
-  [Build & Run](#build--run)
+[Project Structure](#project-structure)
+[Requirements](#requirements)
+[Build & Run](#build--run)
 </center> <br>
 
 A high-performance, security-focused command-line interface (CLI) tool for generating passphrases using the Diceware method. The project combines the convenience of terminal-based automation with the rigor of physical entropy and the operating system's cryptographic sources.
