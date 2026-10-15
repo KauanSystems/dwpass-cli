@@ -20,6 +20,11 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 
 <br>
 
+> [!TIP]
+> dwpass-cli.
+
+<br>
+
 ## 📂 Project Structure:
 
 ```text
