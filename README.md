@@ -20,10 +20,13 @@
   <img src="https://img.shields.io/badge/CMake-Build-green?logo=cmake" alt="CMake">
 </p> <br>
 
+<div align="center">
 
-[Project Structure](#project-structure)
-[Requirements](#requirements)
+[Project Structure](#project-structure) ·
+[Requirements](#requirements) ·
 [Build & Run](#build--run)
+
+</div> <br>
 
 A high-performance, security-focused command-line interface (CLI) tool for generating passphrases using the Diceware method. The project combines the convenience of terminal-based automation with the rigor of physical entropy and the operating system's cryptographic sources.
 
