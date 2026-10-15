@@ -9,7 +9,7 @@
 </h1> <br>
 
 <p align="center">
-  A Modern Cli Diceware Passphrase Generator. <br> Built with modern C++ for performance, simplicity, and reliability. <br>
+  A Modern Cli Diceware Passphrase Generator. <br> Built with modern C++ for performance, simplicity, and reliability. <br><br>
 </p>
 
 <p align="center">
