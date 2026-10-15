@@ -23,17 +23,21 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 ## 📂 Project Structure:
 
 ```text
-dwpass-cli/
+dwpass-cli/                                                          
 ├── assets/                             # Dwpass-cli Assets File.
-├── assets/logo                         # Dwpass-cli Logo.
-├── program                             # dwpass-cli program File.
-├── program/include                     # program Include Directory.
-├── program/include/cli                 # Cli Include Directory.
-├── program/src                         # program src Directory.
-├── program/src/cli                     # Cli src Directory.
+│   └── logo/                           # Dwpass-cli Logo File.
+│
+├── program/                            # dwpass-cli program File.
+│   ├── include/                        # Program Include Directory.
+│   │   └── cli/                        # Cli Include Directory.
+│   │
+│   └── src/                            # program src Directory.
+│       └── cli/                        # Cli src Directory.
+│           └── command_table/          # Program Command Table. 
+│
 ├── CMakeLists.txt                      # Project Root CMakeLists.txt
-├── LICENSE                             # Project Root CMakeLists.txt
-└── README.md                           # Technical documentation.
+├── LICENSE                             # Project License.
+└── README.md                           # Technical Documentation.
 ```
 
 <br>
@@ -85,7 +89,7 @@ Requires a compiler with **C++** support **clang++/g++**.
 ## <img src="https://img.shields.io/badge/Command%20Prompt-000000?style=for-the-badge&logo=windows&logoColor=white" width="30" alt="Command Prompt"> Command Prompt:
 
 ```bash
-https://github.com/KauanSystems/dwpass-cli.git
+git clone https://github.com/KauanSystems/dwpass-cli.git
 
 cd dwpass-cli
 
