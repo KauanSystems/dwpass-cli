@@ -141,10 +141,10 @@ cmake --build build
 [Requirements](#requirements) ·
 [Build & Run](#build--run)
 
-</div> <br>
+</div> <br><br>
 
 <p align="center">
   Developed by KauanSysytems.
-</p> <br><br>
+</p> <br>
 
 <br><br><br><br><br>
