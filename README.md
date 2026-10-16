@@ -25,7 +25,7 @@
 [Project Structure](#project-structure) ·
 [Requirements](#requirements) ·
 [Build](#build) ·
-[Run](#run--exemples)
+[Run Examples](#run-examples)
 
 </div> <br>
 
