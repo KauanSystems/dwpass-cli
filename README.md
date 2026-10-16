@@ -118,7 +118,7 @@ cmake --build build
 
 # Run Examples:
 
-Practical examples of commands for using the program via a command-line interface, regardless of the operating system the user is running. <br>
+Practical examples of commands for using the program via a command-line interface, regardless of the operating system the user is running. <br><br>
 
 > [!TIP]
 > The -e parameter applies to all the statements below.
@@ -141,11 +141,13 @@ To give yourself the input of a real datum to guarantee maximum entropy to your 
 ```bash
 dwpass-cli -i
 ```
+<br>
 
 To ensure maximum entropy and pass the desired number of phrases, pass the desired number of phrases.
 ```bash
 dwpass-cli -i NUM_PHRASES_PASS
 ```
+<br>
 
 Provide the program with a standard wordlist file so that it can generate content based on your language
 ```bash
