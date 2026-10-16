@@ -116,7 +116,7 @@ cmake --build build
 
 <br><br>
 
-# Run Exemples:
+# Run Examples:
 
 Practical examples of commands for using the program via a command-line interface, regardless of the operating system the user is running. <br>
 
@@ -165,7 +165,8 @@ dwpass-cli -i NUM_PHRASES_PASS
 
 [Project Structure](#project-structure) ·
 [Requirements](#requirements) ·
-[Build & Run](#build--run)
+[Build](#build) ·
+[Run Examples](#run-examples)
 
 </div> <br><br>
 
