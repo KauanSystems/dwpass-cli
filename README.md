@@ -120,6 +120,11 @@ cmake --build build
 
 Practical examples of commands for using the program via a command-line interface, regardless of the operating system the user is running. <br>
 
+> [!TIP]
+> The -e parameter applies to all the statements below.
+
+<br>
+
 To simply generate a Diceware passphrase.
 ```bash
 dwpass-cli -g
@@ -137,8 +142,14 @@ To give yourself the input of a real datum to guarantee maximum entropy to your 
 dwpass-cli -i
 ```
 
+To ensure maximum entropy and pass the desired number of phrases, pass the desired number of phrases.
 ```bash
 dwpass-cli -i NUM_PHRASES_PASS
+```
+
+Provide the program with a standard wordlist file so that it can generate content based on your language
+```bash
+dwpass-cli -w FILE_PATH
 ```
 
 <br><br><br><br><br>
