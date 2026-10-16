@@ -155,6 +155,17 @@ Provide the program with a standard wordlist file so that it can generate conten
 ```bash
 dwpass -w FILE_PATH
 ```
+<br>
+
+To input values ​​and provide the program with a wordlist file so that it can generate content based on your language.
+```bash
+dwpass -i -w FILE_PATH
+```
+<br>
+
+```bash
+dwpass -i NUM_PHRASES_PASS -w FILE_PATH
+```
 
 <br><br><br><br><br>
 
@@ -179,11 +190,11 @@ dwpass -w FILE_PATH
 
 <div align="center">
 
+[Home](#home) ·
 [Project Structure](#project-structure) ·
 [Requirements](#requirements) ·
 [Build](#build) ·
-[Run Examples](#run-examples) ·
-[Home](#home)
+[Run Examples](#run-examples)
 
 </div> <br><br>
 
