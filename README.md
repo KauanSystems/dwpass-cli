@@ -1,10 +1,10 @@
 <br>
 
+<a id="home"></a>
 <p align="center">
   <img src="assets/logo/Logo.svg" width="300" alt="dwpass-cli Logo">
 </p>
 
-<a id="home"></a>
 <h1 align="center">
   dwpass-cli - A Diceware Passphrase Generator.
 </h1> <br>
@@ -76,7 +76,6 @@ sudo pacman -S --needed base-devel cmake gcc git
 
 ```bash
 sudo apt update
-
 sudo apt install -y build-essential cmake gcc g++ git
 ```
 
@@ -87,8 +86,28 @@ Open **PowerShell as Administrator** and run:
 ```powershell
 winget install Git.Git
 winget install Kitware.CMake
-
 winget install Microsoft.VisualStudio.2022.BuildTools --override "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
+```
+
+### <img src="https://cdn.simpleicons.org/fedora/51A2DA" width="24" alt="Fedora"> Fedora:
+
+```bash
+sudo dnf upgrade --refresh
+sudo dnf install -y gcc gcc-c++ make cmake git
+```
+
+### <img src="https://cdn.simpleicons.org/alpinelinux/0D597F" width="24" alt="Alpine Linux"> Alpine Linux:
+
+```bash
+sudo apk update
+sudo apk add build-base cmake git
+```
+
+### <img src="https://cdn.simpleicons.org/opensuse/73BA25" width="24" alt="openSUSE"> openSUSE:
+
+```bash
+sudo zypper refresh
+sudo zypper install -y gcc gcc-c++ make cmake git
 ```
 
 <br><br>
@@ -108,11 +127,9 @@ Requires a compiler with **C++** support **clang++/g++**.
 
 ```bash
 git clone https://github.com/KauanSystems/dwpass-cli.git
-
 cd dwpass-cli
 
 cmake -B build
-
 cmake --build build
 ```
 
