@@ -4,6 +4,7 @@
   <img src="assets/logo/Logo.svg" width="300" alt="dwpass-cli Logo">
 </p>
 
+<a id="home"></a>
 <h1 align="center">
   dwpass-cli - A Diceware Passphrase Generator.
 </h1> <br>
@@ -25,7 +26,7 @@
 [Project Structure](#project-structure) ·
 [Requirements](#requirements) ·
 [Build](#build) ·
-[Run Examples](#run-examples)
+[Run Examples](#run-examples) ·
 [Baseboard](#baseboard)
 
 </div> <br>
@@ -181,7 +182,8 @@ dwpass -w FILE_PATH
 [Project Structure](#project-structure) ·
 [Requirements](#requirements) ·
 [Build](#build) ·
-[Run Examples](#run-examples)
+[Run Examples](#run-examples) ·
+[Home](#home)
 
 </div> <br><br>
 
