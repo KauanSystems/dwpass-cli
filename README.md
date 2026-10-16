@@ -99,11 +99,9 @@ Packages installed:
 
 <br><br>
 
-# Build & Run
+# Build
 
 Requires a compiler with **C++** support **clang++/g++**.
-
-## <img src="https://img.shields.io/badge/Command%20Prompt-000000?style=for-the-badge&logo=windows&logoColor=white" width="30" alt="Command Prompt"> Command Prompt:
 
 ```bash
 git clone https://github.com/KauanSystems/dwpass-cli.git
@@ -113,6 +111,15 @@ cd dwpass-cli
 cmake -B build
 
 cmake --build build
+```
+
+# Run Exemples:
+
+Practical examples of commands for using the program via a command-line interface, regardless of the operating system the user is running.
+
+to simply generate a Diceware passphrase.
+```bash
+dwpass-cli -g
 ```
 
 <br><br><br><br><br>
