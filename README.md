@@ -113,13 +113,29 @@ cmake -B build
 cmake --build build
 ```
 
+<br><br>
+
 # Run Exemples:
 
 Practical examples of commands for using the program via a command-line interface, regardless of the operating system the user is running.
 
-to simply generate a Diceware passphrase.
+To simply generate a Diceware passphrase.
 ```bash
 dwpass-cli -g
+```
+
+To generate a Diceware file and export it.
+```bash
+dwpass-cli -g -e
+```
+
+To give yourself the input of a real datum to guarantee maximum entropy to your diceware passphrase.
+```bash
+dwpass-cli -i
+```
+
+```bash
+dwpass-cli -i NUM_PHRASES_PASS
 ```
 
 <br><br><br><br><br>
