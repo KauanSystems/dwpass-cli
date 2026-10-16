@@ -26,6 +26,7 @@
 [Requirements](#requirements) ·
 [Build](#build) ·
 [Run Examples](#run-examples)
+[Baseboard](#baseboard)
 
 </div> <br>
 
@@ -127,31 +128,31 @@ Practical examples of commands for using the program via a command-line interfac
 
 To simply generate a Diceware passphrase.
 ```bash
-dwpass-cli -g
+dwpass -g
 ``` 
 <br>
 
 To generate a Diceware file and export it.
 ```bash
-dwpass-cli -g -e
+dwpass -g -e
 ```
 <br>
 
 To give yourself the input of a real datum to guarantee maximum entropy to your diceware passphrase.
 ```bash
-dwpass-cli -i
+dwpass -i
 ```
 <br>
 
 To ensure maximum entropy and pass the desired number of phrases, pass the desired number of phrases.
 ```bash
-dwpass-cli -i NUM_PHRASES_PASS
+dwpass -i NUM_PHRASES_PASS
 ```
 <br>
 
 Provide the program with a standard wordlist file so that it can generate content based on your language
 ```bash
-dwpass-cli -w FILE_PATH
+dwpass -w FILE_PATH
 ```
 
 <br><br><br><br><br>
@@ -162,6 +163,7 @@ dwpass-cli -w FILE_PATH
 
 <h1 align="center">Dwpass-cli</h1> <br>
 
+<a id="baseboard"></a>
 <p align="center">
   A Modern Cli Diceware Passphrase Generator. <br> Built with modern C++ for performance, simplicity, and reliability. <br><br>
 </p>
