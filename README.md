@@ -79,7 +79,7 @@ sudo apt update
 sudo apt install -y build-essential cmake gcc g++ git
 ```
 
-### <img src="https://img.shields.io/badge/PowerShell-%23012456.svg?style=for-the-badge&logo=powershell&logoColor=white" width="24" alt="Windows"> Windows
+### <img src="https://cdn.simpleicons.org/windows/0078D4" width="24" alt="Windows"> Windows:
 
 Open **PowerShell as Administrator** and run:
 
