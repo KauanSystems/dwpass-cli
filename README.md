@@ -24,7 +24,8 @@
 
 [Project Structure](#project-structure) ·
 [Requirements](#requirements) ·
-[Build & Run](#build--run)
+[Build](#build) ·
+[Run](#run--exemples)
 
 </div> <br>
 
@@ -117,17 +118,19 @@ cmake --build build
 
 # Run Exemples:
 
-Practical examples of commands for using the program via a command-line interface, regardless of the operating system the user is running.
+Practical examples of commands for using the program via a command-line interface, regardless of the operating system the user is running. <br>
 
 To simply generate a Diceware passphrase.
 ```bash
 dwpass-cli -g
-```
+``` 
+<br>
 
 To generate a Diceware file and export it.
 ```bash
 dwpass-cli -g -e
 ```
+<br>
 
 To give yourself the input of a real datum to guarantee maximum entropy to your diceware passphrase.
 ```bash
