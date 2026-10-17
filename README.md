@@ -70,6 +70,10 @@ dwpass-cli/
 
 <br>
 
+## Supported Operating Systems:
+
+### <img src="https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white" alt="Windows"> ### <img src="https://cdn.simpleicons.org/linux" width="24" alt="Linux"> Linux:
+
 ## Requirements:
 
 Before building dwpass, make sure the following dependencies are installed. <br>
