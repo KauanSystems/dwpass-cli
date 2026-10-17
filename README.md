@@ -70,10 +70,14 @@ dwpass-cli/
 
 <br>
 
-## Supported Operating Systems:
+## Supported Operating Systems
 
-### <img src="https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white" alt="Windows"> Windows <br>
-### <img src="https://cdn.simpleicons.org/linux" width="24" alt="Linux"> Linux: <br><br>
+| Operating System | Support |
+|---|---|
+| ![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white) | Supported |
+| ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) | Supported |
+
+<br><br>
 
 ## Requirements:
 
