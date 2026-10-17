@@ -66,6 +66,17 @@ dwpass-cli/
 
 Before building dwpass, make sure the following dependencies are installed. <br>
 
+### <img src="https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white" alt="Windows">
+
+Open **PowerShell as Administrator** and run:
+
+```powershell
+winget install Git.Git
+winget install Kitware.CMake
+
+winget install Microsoft.VisualStudio.2022.BuildTools --override "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
+```
+
 ### <img src="https://cdn.simpleicons.org/archlinux" width="24" alt="Arch Linux"> Arch Linux:
 
 ```bash
@@ -77,16 +88,6 @@ sudo pacman -S --needed base-devel cmake gcc git
 ```bash
 sudo apt update
 sudo apt install -y build-essential cmake gcc g++ git
-```
-
-### <img src="https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white" alt="Windows">
-
-Open **PowerShell as Administrator** and run:
-
-```powershell
-winget install Git.Git
-winget install Kitware.CMake
-winget install Microsoft.VisualStudio.2022.BuildTools --override "--add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
 ```
 
 ### <img src="https://cdn.simpleicons.org/fedora/51A2DA" width="24" alt="Fedora"> Fedora:
