@@ -73,7 +73,7 @@ dwpass-cli/
 
 ## Supported Operating Systems
 
-<br><br>
+<br>
 
 | Operating System | Status |
 |---|---|
@@ -82,9 +82,7 @@ dwpass-cli/
 | ![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white) | ![Not supported](https://img.shields.io/badge/Not%20Supported-red?style=flat) |
 | ![FreeBSD](https://img.shields.io/badge/FreeBSD-AB2B28?style=flat&logo=freebsd&logoColor=white) | ![Not supported](https://img.shields.io/badge/Not%20Supported-red?style=flat) |
 
-
-
-<br><br>
+<br>
 
 ## Requirements:
 
