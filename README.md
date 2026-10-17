@@ -24,6 +24,7 @@
 <div align="center">
 
 [Project Structure](#project-structure) ·
+[Supported Operating Systems](#supported-operating-systems) .
 [Requirements](#requirements) ·
 [Build](#build) ·
 [Run Examples](#run-examples) ·
@@ -70,7 +71,7 @@ dwpass-cli/
 
 <br>
 
-## Supported Operating Systems
+## Supported Operating Systems <br>
 
 | Operating System | Support |
 |---|---|
@@ -227,6 +228,7 @@ dwpass -i NUM_PHRASES_PASS -w FILE_PATH
 
 [Home](#home) ·
 [Project Structure](#project-structure) ·
+[Supported Operating Systems](#supported-operating-systems) .
 [Requirements](#requirements) ·
 [Build](#build) ·
 [Run Examples](#run-examples)
