@@ -35,10 +35,14 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 
 <br>
 
-> [!TIP]
-> dwpass-cli.
+> [!IMPORTANT]
+> To ensure maximum randomness and cryptographic security, the program makes direct use of the native entropy sources provided by the supported operating systems (Linux and Windows).
 
 <br>
+
+## About Project:
+
+
 
 ## Project Structure:
 
