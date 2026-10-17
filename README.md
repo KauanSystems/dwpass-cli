@@ -79,8 +79,9 @@ dwpass-cli/
 |---|---|
 | ![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white) | ![Supported](https://img.shields.io/badge/Supported-2ea44f?style=flat) |
 | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) | ![Supported](https://img.shields.io/badge/Supported-2ea44f?style=flat) |
-| macOS | ![Not supported](https://img.shields.io/badge/Not%20supported-red?style=flat) |
-| FreeBSD | ![Not supported](https://img.shields.io/badge/Not%20supported-red?style=flat) |
+| ![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white) | ![Not supported](https://img.shields.io/badge/Not%20Supported-red?style=flat) |
+| ![FreeBSD](https://img.shields.io/badge/FreeBSD-AB2B28?style=flat&logo=freebsd&logoColor=white) | ![Not supported](https://img.shields.io/badge/Not%20Supported-red?style=flat) |
+
 
 
 <br><br>
