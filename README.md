@@ -71,7 +71,9 @@ dwpass-cli/
 
 <br>
 
-## Supported Operating Systems <br>
+## Supported Operating Systems
+
+<br>
 
 | Operating System | Support |
 |---|---|
