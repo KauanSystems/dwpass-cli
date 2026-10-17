@@ -36,13 +36,17 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 <br>
 
 > [!IMPORTANT]
-> To ensure maximum randomness and cryptographic security, the program makes direct use of the native entropy sources provided by the supported operating systems (Linux and Windows).
+> To ensure maximum randomness and cryptographic security, the program makes direct use of the native entropy sources provided by the supported operating systems.
 
 <br>
 
 ## About Project:
 
+This project is a high-performance CLI Diceware generator, developed in modern C++ and structured using CMake. The tool prioritizes security and reliability in the creation of memorable passwords and passphrases. <br>
 
+To ensure maximum randomness and cryptographic security, the application draws directly from the native entropy sources provided by the operating system, eliminating the need for complex external dependencies. Featuring an intuitive command-line interface, the generator is ideal both for users seeking secure credentials for everyday use and for integration into automation scripts.
+
+<br>
 
 ## Project Structure:
 
