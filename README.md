@@ -36,7 +36,7 @@ A high-performance, security-focused command-line interface (CLI) tool for gener
 <br>
 
 > [!IMPORTANT]
-> To ensure maximum randomness and cryptographic security, the program makes direct use of the native entropy sources provided by the supported operating systems.
+> To ensure maximum randomness and cryptographic security, the program makes direct use of the native entropy sources provided by the supported operating systems [Supported Operating Systems](#supported-operating-systems).
 
 <br>
 
@@ -72,7 +72,8 @@ dwpass-cli/
 
 ## Supported Operating Systems:
 
-### <img src="https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white" alt="Windows"> Windows ### <img src="https://cdn.simpleicons.org/linux" width="24" alt="Linux"> Linux:
+### <img src="https://img.shields.io/badge/Windows-0078D4?style=flat&logo=windows&logoColor=white" alt="Windows"> Windows <br>
+### <img src="https://cdn.simpleicons.org/linux" width="24" alt="Linux"> Linux: <br><br>
 
 ## Requirements:
 
