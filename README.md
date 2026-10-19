@@ -164,6 +164,7 @@ cmake --build build
 <br><br>
 > [!WARNING]
 > To optimize security and usability, it is recommended to use a `wordlist.txt` file in your **native language** <br> (such as the official Diceware list of 7,776 words).
+
 <br><br>
 
 To create a secure and memorable passphrase using the Diceware method, the number of words in your wordlist should preferably be 7,776 (exactly the size of the classic original Diceware list).
