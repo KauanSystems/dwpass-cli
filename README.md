@@ -27,6 +27,7 @@
 [Supported Operating Systems](#supported-operating-systems) .
 [Requirements](#requirements) ·
 [Build](#build) ·
+[Wordlist Use](#wordlist-use) ·
 [Run Examples](#run-examples) ·
 [Baseboard](#baseboard)
 
@@ -158,6 +159,30 @@ cmake --build build
 
 <br><br>
 
+# Wordlist Use:
+
+> [!IMPORTANT]
+> To optimize security and usability, it is recommended to use a `wordlist.txt` file in your **native language** (such as the official Diceware list of 7,776 words).
+
+To create a secure and memorable passphrase using the Diceware method, the number of words in your wordlist should preferably be 7,776 (exactly the size of the classic original Diceware list). <br>
+
+Why 7,776 words?
+Simple: The Diceware system was designed for use with 6-sided dice. Each word is chosen by rolling a 6-sided die 5 times. This creates mathematical combinations based on 6 possible outcomes per roll, repeated 5 times: 6⁵ = 7,776. <br>
+
+Why is a wordlist with fewer lines incorrect or insecure?
+If you use a list with fewer than 7,776 words, it directly affects the security of your password (known as entropy):
+
+· Reduction in Entropy [Password Strength]:
+The security of a Diceware passphrase depends on the number of possible combinations. With a full list of 7,776 words, each word added to your passphrase provides approximately 12.9 bits of entropy (log₂(7776) ≈ 12.9). If you use a smaller list, each word carries fewer bits of information, making the password easier to crack using brute-force programs.
+
+· Loss of True Randomness [Issues with the Data]:
+Six-sided dice generate numbers from 1 to 6. If your list contains, for example, 1,000 words, the mapping of dice outcomes to those words becomes skewed or incomplete. You would be forced to either discard certain dice combinations or employ complex methods to select the words—both of which undermine the simplicity and mathematical randomness of the original system.
+
+> [!TIP]
+> If you are creating or using a wordlist, always try to use `wordlist.txt` files in your native language. This makes it much easier to remember your passphrase, ensuring maximum security while benefiting from the familiarity of your own language!.
+
+<br><br>
+
 # Run Examples:
 
 Practical examples of commands for using the program via a command-line interface, regardless of the operating system the user is running. <br><br>
@@ -235,6 +260,7 @@ dwpass -i NUM_PHRASES_PASS -w FILE_PATH
 [Supported Operating Systems](#supported-operating-systems) .
 [Requirements](#requirements) ·
 [Build](#build) ·
+[Wordlist Use](#wordlist-use) ·
 [Run Examples](#run-examples)
 
 </div> <br><br>
