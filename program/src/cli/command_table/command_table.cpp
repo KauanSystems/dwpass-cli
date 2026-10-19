@@ -286,6 +286,27 @@ namespace Command_table {
 				std::cout << "The File not exists.\n";
 				return 0;
 			}
+			
+			// Condition.
+			std::ifstream file(file_path);
+			if (!file.is_open()) {
+				std::cerr << "\n[Error] Unable to open the file.\n\n";
+				return 0;
+			}
+
+			int line_count = 0;
+			std::string line;
+			while (std::getline(file, line)) {
+				++line_count;
+			}
+
+			file.close();
+
+			if (line_count != 7776) {
+				std::cerr << "\n[Error] The file must contain exactly 7776 lines.\n\n";
+				return 0;
+			}
+			// End.
 
 			std::filesystem::path dir(export_dir);
 			std::filesystem::path file_pat =
@@ -409,6 +430,27 @@ namespace Command_table {
 				std::cout << "The File not exists.\n";
 				return 0;
 			}
+			
+			// Condition.
+			std::ifstream file(file_path);
+			if (!file.is_open()) {
+				std::cerr << "\n[Error] Unable to open the file.\n\n";
+				return 0;
+			}
+
+			int line_count = 0;
+			std::string line;
+			while (std::getline(file, line)) {
+				++line_count;
+			}
+
+			file.close();
+
+			if (line_count != 7776) {
+				std::cerr << "\n[Error] The file must contain exactly 7776 lines.\n\n";
+				return 0;
+			}
+			// End.
 
 			std::filesystem::path file_pat =
 				export_dir.empty()
