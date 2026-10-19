@@ -157,7 +157,7 @@ cmake -B build
 cmake --build build
 ```
 
-<br><br>
+<br>
 
 # Wordlist Use:
 
@@ -174,7 +174,7 @@ Why 7,776 words? <br>
 Simple: The Diceware system was designed for use with 6-sided dice. Each word is chosen by rolling a 6-sided die 5 times. This creates mathematical combinations based on 6 possible outcomes per roll, repeated 5 times: 6⁵ = 7,776. <br><br>
 
 Why is a wordlist with fewer lines incorrect or insecure? <br>
-If you use a list with fewer than 7,776 words, it directly affects the security of your password (known as entropy):
+If you use a list with fewer than 7,776 words, it directly affects the security of your password (known as entropy): <br>
 
 · Reduction in Entropy [Password Strength]: <br>
 The security of a Diceware passphrase depends on the number of possible combinations. With a full list of 7,776 words, each word added to your passphrase provides approximately 12.9 bits of entropy (log₂(7776) ≈ 12.9). If you use a smaller list, each word carries fewer bits of information, making the password easier to crack using brute-force programs. <br><br>
