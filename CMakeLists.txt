@@ -24,8 +24,14 @@ include_directories(${CMAKE_SOURCE_DIR}/program/include/cli/)
 add_subdirectory(${CMAKE_CURRENT_BINARY_DIR}/_deps/core_repo-src/core/)
 add_subdirectory(program)
 
-file(COPY
-    ${CMAKE_CURRENT_BINARY_DIR}/_deps/core_repo-src/assets
-
-    DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/program/src/cli/
-)
+if(WIN32)
+    file(COPY
+        ${CMAKE_CURRENT_BINARY_DIR}/_deps/core_repo-src/assets
+        DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/program/src/cli/Release
+    )
+elseif(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+    file(COPY
+        ${CMAKE_CURRENT_BINARY_DIR}/_deps/core_repo-src/assets
+        DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/program/src/cli/
+    )
+endif()
